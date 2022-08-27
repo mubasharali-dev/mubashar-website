@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import MyPic from '../public/projects/my.jpg';
 
 const About = () => {
   return (
@@ -34,9 +35,9 @@ const About = () => {
           <Image
             className='rounded-xl'
             alt='me'
-            src='/../public/projects/my.jpg'
-            width='700'
-            height='700'
+            src={MyPic}
+            // width='700'
+            // height='700'
           />
         </div>
       </div>

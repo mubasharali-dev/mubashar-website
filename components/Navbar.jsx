@@ -5,6 +5,7 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
+import Logo from '../public/projects/log.jpg';
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
@@ -59,7 +60,7 @@ export default function Navbar() {
         <Link href='/'>
           <Image
             alt='Logo'
-            src='/../public/projects/log.jpg'
+            src={Logo}
             width='125'
             height='50'
             className='cursor-pointer'
