@@ -34,7 +34,7 @@ const About = () => {
           <Image
             className='rounded-xl'
             alt='me'
-            src='/../public/assets/my.jpg'
+            src='/../public/projects/my.jpg'
             width='700'
             height='700'
           />

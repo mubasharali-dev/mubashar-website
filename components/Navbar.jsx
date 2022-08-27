@@ -59,7 +59,7 @@ export default function Navbar() {
         <Link href='/'>
           <Image
             alt='Logo'
-            src='/../public/assets/log.png'
+            src='/../public/projects/log.jpg'
             width='125'
             height='50'
             className='cursor-pointer'
