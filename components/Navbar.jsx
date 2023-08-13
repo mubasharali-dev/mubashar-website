@@ -5,6 +5,7 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
+import mypic from '../public/projects/mubashar.jpg'
 import Logo from '../public/projects/log.jpg';
 
 export default function Navbar() {
@@ -18,7 +19,7 @@ export default function Navbar() {
 
   useEffect(() => {
     if (
-      router.asPath === '/jobify' ||
+      router.asPath === '/movie-app' ||
       router.asPath === '/avenue' ||
       router.asPath === '/eshoppers' ||
       router.asPath === '/crowdly'
@@ -56,42 +57,39 @@ export default function Navbar() {
           : 'fixed  z-[100] w-full h-20'
       }
     >
-      <div className='flex items-center justify-between w-full h-full px-2 2xl:px-16'>
+      <div className='flex items-center justify-between w-full h-full px-6 2xl:px-16'>
         <Link href='/'>
           <Image
-            alt='Logo'
-            src={Logo}
-            width='125'
-            height='50'
-            className='cursor-pointer'
+            alt='mypic'
+            src={mypic}
+            width='40'
+            height='40'
+            className='cursor-pointer rounded-full'
           />
         </Link>
         <div>
-          <ul className='hidden md:flex'>
-            <Link href='/'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
-            </Link>
-            <Link href='/#about'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
-            </Link>
-            <Link href='/#skills'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-            </Link>
-            <Link href='/#projects'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>
-                Projects
-              </li>
-            </Link>
-            <Link href='/#contact'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>
-                Contact
-              </li>
-            </Link>
-          </ul>
-          <div className='md:hidden' onClick={handleNav}>
-            <AiOutlineMenu size={25} />
-          </div>
-        </div>
+  <ul className='hidden md:flex'>
+    <Link href='/'>
+      <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Home</li>
+    </Link>
+    <Link href='/#about'>
+      <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>About</li>
+    </Link>
+    <Link href='/#skills'>
+      <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Skills</li>
+    </Link>
+    <Link href='/#projects'>
+      <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Projects</li>
+    </Link>
+    <Link href='/#contact'>
+      <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Contact</li>
+    </Link>
+  </ul>
+  <div className='md:hidden' onClick={handleNav}>
+    <AiOutlineMenu size={25} />
+  </div>
+</div>
+
       </div>
       <div
         className={
@@ -109,7 +107,7 @@ export default function Navbar() {
             <div className='flex items-center justify-between w-full'>
               <Link href='/'>
                 <Image
-                  alt='Logo'
+                  alt='mypic'
                   src='/../public/assets/log.png'
                   width='87'
                   height='35'
@@ -125,7 +123,7 @@ export default function Navbar() {
             </div>
             <div className='my-4 border-b border-gray-300'>
               <p className='w-[85%] md:w-[90%] font-bold'>
-                Let&apos;s builds something legendary together
+                Let&apos;s solve your problem together
               </p>
             </div>
           </div>
@@ -161,13 +159,13 @@ export default function Navbar() {
                 </li>
               </Link>
             </ul>
-            <div className='pt-40 '>
+            <div className='pt-40'>
               <p className='font-bold tracking-widest uppercase text-[#5651e5] '>
-                Let&apos;s Connect
+                Let&apos;s talk
               </p>
               <div className='flex items-center justify-between w-full my-4 sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/ahsan-mumtaz/'
+                  href='https://www.linkedin.com/in/mubasharali-dev/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -176,7 +174,7 @@ export default function Navbar() {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/ahsan1800411'
+                  href='https://github.com/mubasharali-dev'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -186,7 +184,7 @@ export default function Navbar() {
                 </a>
 
                 <a
-                  href='mailto:ahsanmumtaz008976@gmail.com'
+                  href='mailto:mubashar.hashmat@gmail.com'
                   target='_blank'
                   rel='noreferrer'
                 >

@@ -1,44 +1,43 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import Project1 from '../public/projects/project1.jpg';
-import Project2 from '../public/projects/project2.jpg';
-import Project3 from '../public/projects/project3.png';
-import Project4 from '../public/projects/project4.jpg';
+import P1 from '../public/projects/p1.PNG';
+import P2 from '../public/projects/p2.PNG';
+import P3 from '../public/projects/p3.PNG';
+import P4 from '../public/projects/p4.PNG';
 import ProjectItem from './ProjectItem';
 
-const Projects = () => {
+const Projects = () =>{
   return (
-    <div id='projects' className='w-full'>
+    <div id='projects' className='w-full pt-20'>
       <div className='max-w-[1240px]  mx-auto  px-2   py-16'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
         </p>
-
-        <h2 className='py-4'>What I've Built</h2>
+        <h2 className='py-4'>Work I have done</h2>
         <div className='grid gap-8 md:grid-cols-2'>
           <ProjectItem
-            title='Jobify'
-            url='/jobify'
+            title='Movie Data Fetcher App'
+            url='/movieapp'
+            skill='Javascript'
+            image={P1}
+          />
+          <ProjectItem
+            title='FYP Management System'
+            url='/fypms'
+            image={P2}
             skill='MERN'
-            image={Project1}
           />
           <ProjectItem
-            title='Avenue Realty App'
-            url='/avenue'
-            image={Project2}
-            skill='NESTJS'
+            title='Forex Admin Dashboard'
+            url='/forexadmin'
+            skill='ReactJs'
+            image={P3}
           />
           <ProjectItem
-            title='Crowdly'
-            url='/crowdly'
-            skill='GraphQL'
-            image={Project3}
-          />
-          <ProjectItem
-            title='EShoppers'
-            url='/eshoppers'
-            skill='MERN'
-            image={Project4}
+            title='Mesha Accounting App'
+            url='/mesha'
+            skill='TypeScript'
+            image={P4}
           />
         </div>
       </div>

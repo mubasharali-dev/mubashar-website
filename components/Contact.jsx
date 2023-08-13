@@ -1,6 +1,5 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import ContactImg from '../public/projects/contact.jpg';
+import ContactImg from '../public/projects/pc.jpg';
 import Image from 'next/image';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -28,18 +27,17 @@ export const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Ahsan Mumtaz</h2>
+                <h2 className='py-2'>Mubashar Ali</h2>
                 <p>Full-Stack Developer</p>
                 <p className='py-4'>
-                  I'm available for freelance work and for full-time position.
-                  Let's talk.
+                 I'm available anytime. Just drop a message on one of the below channels or fill the form, and I'll get back to you as soon as possible.
                 </p>
               </div>
               <div>
-                <p className='pt-8 uppercase '>Connect with me</p>
+                <p className='pt-8 uppercase '>Let's connect</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/ahsan-mumtaz/'
+                    href='https://www.linkedin.com/in/mubasharali-dev/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -48,7 +46,7 @@ export const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/ahsan1800411'
+                    href='https://github.com/mubasharali-dev'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -57,7 +55,7 @@ export const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='mailto:ahsanmumtaz008976@gmail.com'
+                    href='mailto:mubashar.hashmat@gmail.com'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -66,9 +64,7 @@ export const Contact = () => {
                     </div>
                   </a>
 
-                  <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
-                    <BsFillPersonLinesFill />
-                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -76,7 +72,7 @@ export const Contact = () => {
           {/* right */}
           <div className='w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
-              <form encType='multipart/form-data'>
+              <form  action='https://formspree.io/f/mbjvdday' method='POST'>
                 <div className='grid w-full gap-4 py-2 md:grid-cols-2'>
                   <div className='flex flex-col'>
                     <label className='py-2 text-sm uppercase'>Name</label>
