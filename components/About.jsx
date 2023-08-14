@@ -43,10 +43,10 @@ const About = () => {
             animate={{ x: inView ? '0%' : '-100%', opacity: inView ? 1 : 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
           >
-            I'm Mubashar Ali, a Full-Stack Developer using MERN stack. I have an
+            I&apos;m Mubashar Ali, a Full-Stack Developer using MERN stack. I have an
             experience of MERN along with Javascript, Typerscript, Next.js,
-            jQuery, Material - UI and React-Bootstrap. Whether I'm working on my
-            own or as a part of team, I'm constantly driven to provide
+            jQuery, Material - UI and React-Bootstrap. Whether I&apos;m working on my
+            own or as a part of team, I&apos;m constantly driven to provide
             innovative solutions to complex problems.
           </motion.p>
           <motion.p

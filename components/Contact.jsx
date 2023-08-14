@@ -30,7 +30,7 @@ export const Contact = () => {
                 <h2 className='py-2'>Mubashar Ali</h2>
                 <p>Full-Stack Developer</p>
                 <p className='py-4'>
-                 I'm available anytime. Just drop a message on one of the below channels or fill the form, and I'll get back to you as soon as possible.
+                 I&apos;m available anytime. Just drop a message on one of the below channels or fill the form, and I&apos;ll get back to you as soon as possible.
                 </p>
               </div>
               <div>
