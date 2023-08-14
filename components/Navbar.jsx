@@ -19,10 +19,10 @@ export default function Navbar() {
 
   useEffect(() => {
     if (
-      router.asPath === '/movie-app' ||
-      router.asPath === '/avenue' ||
-      router.asPath === '/eshoppers' ||
-      router.asPath === '/crowdly'
+      router.asPath === '/movieapp' ||
+      router.asPath === '/fypms' ||
+      router.asPath === '/mesha' ||
+      router.asPath === '/forexadmin'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');

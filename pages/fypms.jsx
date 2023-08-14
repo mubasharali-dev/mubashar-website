@@ -29,8 +29,24 @@ const fypms = () => {
           <p>
           This project aims to develop an online platform to facilitate the completion of final year projects (FYP) for the information technology department. The FYP is a crucial component of the department's curriculum, where groups of students work under the guidance of a supervisor to complete a theme-based project. The platform will utilize cutting-edge technology to enhance collaboration and communication among the three key user groups: FYP programme organizers, project supervisors, and project group members. The goal of this project is to create a complete web-based system that streamlines the FYP process and enhances the overall experience for all involved parties.
           </p>
+          
+          <h3 className='gap-4 py-4 mx-auto'>Login Credentials</h3>
+          <div className='flex'>
+            <div className='col-span-4 p-3'> 
+          <h3>Admin Login</h3>
+          <p>Username: admin00334</p>
+          <p>password: jamshaid334</p>
+          <p>Role: Admin</p>
+          </div>
+          <div className='col-span-4 p-3'>
+          <h3>Student Login</h3>
+          <p>Username: bsf1900109</p>
+          <p>password: bsf1900109</p>
+          <p>Role: Student</p>
+          </div>
+          </div>
           <a
-            href='https://github.com/mubasharali-dev/Web-Based-FYP-Management-System'
+            href='https://github.com/mubasharali-dev/fyp-system'
             target='_blank'
             rel='noreferrer'
           >

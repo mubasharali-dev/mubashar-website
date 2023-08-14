@@ -63,8 +63,6 @@ export const Contact = () => {
                       <AiOutlineMail />
                     </div>
                   </a>
-
-                 
                 </div>
               </div>
             </div>
