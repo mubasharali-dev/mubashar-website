@@ -34,7 +34,7 @@ export const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className='pt-8 uppercase '>Let's connect</p>
+                <p className='pt-8 uppercase '>Let&apos;s connect</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
                     href='https://www.linkedin.com/in/mubasharali-dev/'

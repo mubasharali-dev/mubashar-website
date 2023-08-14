@@ -56,7 +56,7 @@ const About = () => {
             transition={{ duration: 0.5, delay: 0.8 }}
           >
             Aside from coding, Mubashar also loves to play cricket, badminton,
-            and workout. It's very easy to work with him. Feel free to reach
+            and workout. It&apos;s very easy to work with him. Feel free to reach
             out to him on{' '}
             <a
               href='https://www.linkedin.com/in/mubasharali-dev/'
