@@ -27,7 +27,7 @@ const fypms = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This project aims to develop an online platform to facilitate the completion of final year projects (FYP) for the information technology department. The FYP is a crucial component of the department&apos;s curriculum, where groups of students work under the guidance of a supervisor to complete a theme-based project. The platform will utilize cutting-edge technology to enhance collaboration and communication among the three key user groups: FYP programme organizers, project supervisors, and project group members. The goal of this project is to create a complete web-based system that streamlines the FYP process and enhances the overall experience for all involved parties.
+          This project aims to develop an online platform to facilitate the completion of final year projects (FYP) for the information technology department. The FYP is a crucial component of the department curriculum, where groups of students work under the guidance of a supervisor to complete a theme-based project. The platform will utilize cutting-edge technology to enhance collaboration and communication among the three key user groups: FYP programme organizers, project supervisors, and project group members. The goal of this project is to create a complete web-based system that streamlines the FYP process and enhances the overall experience for all involved parties.
           </p>
           
           <h3 className='gap-4 py-4 mx-auto'>Login Credentials</h3>
