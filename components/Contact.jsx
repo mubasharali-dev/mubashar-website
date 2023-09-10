@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 export const Contact = () => {
   return (
-    <div id='contact' className='w-full lg:h-screen'>
+    <div id='contact' className='w-full pt-20 lg:h-screen'>
       <div className='max-w-[1240px]  mx-auto  px-2 w-full  py-16'>
         <p className='uppercase tracking-widest text-[#5651e5] text-xl'>
           Contact

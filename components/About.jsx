@@ -43,8 +43,7 @@ const About = () => {
             animate={{ x: inView ? '0%' : '-100%', opacity: inView ? 1 : 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
           >
-            I&apos;m Mubashar Ali, a Full-Stack Developer using MERN stack. I have an
-            experience of MERN along with Javascript, Typerscript, Next.js,
+            I have an experience of MERN Stack along with Javascript, Typescript, Next.js,
             jQuery, Material - UI and React-Bootstrap. Whether I&apos;m working on my
             own or as a part of team, I&apos;m constantly driven to provide
             innovative solutions to complex problems.
@@ -55,16 +54,15 @@ const About = () => {
             animate={{ x: inView ? '0%' : '-100%', opacity: inView ? 1 : 0 }}
             transition={{ duration: 0.5, delay: 0.8 }}
           >
-            Aside from coding, Mubashar also loves to play cricket, badminton,
-            and workout. It is very easy to work with him. Feel free to reach
-            out to him on{' '}
+            It is very easy to work with him. Feel free to reach
+            out to him on his{' '}
             <a
-              href='https://www.linkedin.com/in/mubasharali-dev/'
+              href='mailto:mubashar.hashmat@gmail.com'
               target='_blank'
               rel='noreferrer'
               className='text-blue-500 underline hover:no-underline'
             >
-              LinkedIn
+              Email
             </a>
             .
           </motion.p>

@@ -9,7 +9,7 @@ const Skills = () => {
     threshold: 0.2,
   });
   return (
-    <div id='skills' ref={ref} className={`w-full p-2 lg:h-screen ${
+    <div id='skills' ref={ref} className={`w-full mt-40 p-2 lg:h-screen ${
       inView ? 'animate-appear' : ''
     }`}>
       <div className='max-w=[1240px] h-full flex flex-col justify-center mx-auto  px-2   py-16'>
