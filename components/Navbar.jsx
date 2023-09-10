@@ -75,11 +75,11 @@ export default function Navbar() {
     <Link href='/#about'>
       <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>About</li>
     </Link>
-    <Link href='/#skills'>
-      <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Skills</li>
-    </Link>
     <Link href='/#projects'>
       <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Projects</li>
+    </Link>
+    <Link href='/#skills'>
+      <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Skills</li>
     </Link>
     <Link href='/#contact'>
       <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Contact</li>

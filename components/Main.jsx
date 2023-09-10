@@ -36,12 +36,12 @@ export const Main = () => {
         animate={{ x: 0 }} // Animate to the center
         transition={{ duration: 1, ease: 'easeOut', delay: 0.4 }} // Add a slight delay to the animation
       >
-        A Full-Stack Developer
+        A Full-Stack Web Developer
       </motion.h2>
     </motion.div>
 
           <p className='py-4 max-w-[70%] text-gray-600 m-auto font-semibold'>
-            I&apos;m experienced Full-Stack Developer with over two years of practical expertise in creating, coding, and deploying various applications and solutions using a diverse set of technologies, libraries, and frameworks. Eager to utilize my extensive development background and hands-on technical skills as a Full-Stack Developer.
+            Certified and experienced Full-Stack Web Developer with over two years of practical expertise in creating, coding, and deploying various applications. I have launched websites like Management systems, E-Commerce solutions, Landing pages, and Accounts apps with client satisfaction rate of 99%.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
