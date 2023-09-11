@@ -16,20 +16,20 @@ const Projects = () =>{
         <h2 className='py-4'>Work I have done</h2>
         <div className='grid gap-8 md:grid-cols-2'>
           <ProjectItem
-            title='Movie Data Fetcher App'
-            url='/movieapp'
-            skill='Javascript'
-            image={P1}
-          />
-          <ProjectItem
             title='FYP Management System'
             url='/fypms'
             image={P2}
             skill='MERN'
           />
           <ProjectItem
-            title='Forex Admin Dashboard'
-            url='/forexadmin'
+            title='Cine Magestic - Movie App'
+            url='/movieapp'
+            skill='NextJs/TypeScript'
+            image={P1}
+          />
+          <ProjectItem
+            title='Cartsy Medicine - E Commerce App'
+            url='/ecommerce'
             skill='ReactJs'
             image={P3}
           />
