@@ -1,11 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import P1 from '../public/projects/p1.PNG';
+import P3 from '../public/projects/p3.PNG';
 import {RiRadioButtonFill} from 'react-icons/ri';
 import Link from 'next/link';
 
-
-const movieapp = () => {
+const ecommerce = () => {
     return (
         <div className='w-full'>
             <div className='w-screen h-[50vh] relative'>
@@ -14,14 +13,13 @@ const movieapp = () => {
                     className='absolute z-1'
                     layout='fill'
                     objectFit='cover'
-                    src={P1}
+                    src={P3}
                     alt='/'
                 />
                 <div
                     className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                    <h2 className='py-2'>Movie App</h2>
-                    <h3>
-                        Next.js | TypeScript | MongoDB | CSS | Responsive Design </h3>
+                    <h2 className='py-2'>Cartsy Medicine - E Commerce App</h2>
+                    <h3>React | JavaScript | CSS | UI/UX</h3>
                 </div>
             </div>
 
@@ -30,30 +28,22 @@ const movieapp = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        Cine Magestic, the ultimate movie app, simplifies the daunting task of discovering the perfect
-                        movie or TV show. Powered by Next.js, TypeScript, and MongoDB, it taps into Netflix's Rapid API,
-                        granting access to over 10,000 movies and shows. With an intuitive interface, and filtering options, and personalized recommendations that boost engagement by 40%, users find
-                        their favorite content effortlessly.
-                        <br/>
-                        <br/>
+                        I successfully built an e-commerce application for cosmetics, enabling users to shop for over
+                        100+ makeup, skincare, and hair care products through their mobile devices. Leveraging my
+                        expertise in front-end development and user experience design, I crafted a user-friendly
+                        interface and integrated features that led to a 30% increase in customer engagement and a 20%
+                        rise in conversion rates, ultimately creating a seamless and enjoyable shopping experience for
+                        customers.
                     </p>
-                    <div className="flex items-center bg-blue-400 text-white text-sm font-bold px-4 py-3" role="alert">
-                        <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg"
-                             viewBox="0 0 20 20">
-                            <path
-                                d="M12.432 0c1.34 0 2.01.912 2.01 1.957 0 1.305-1.164 2.512-2.679 2.512-1.269 0-2.009-.75-1.974-1.99C9.789 1.436 10.67 0 12.432 0zM8.309 20c-1.058 0-1.833-.652-1.093-3.524l1.214-5.092c.211-.814.246-1.141 0-1.141-.317 0-1.689.562-2.502 1.117l-.528-.88c2.572-2.186 5.531-3.467 6.801-3.467 1.057 0 1.233 1.273.705 3.23l-1.391 5.352c-.246.945-.141 1.271.106 1.271.317 0 1.357-.392 2.379-1.207l.6.814C12.098 19.02 9.365 20 8.309 20z"/>
-                        </svg>
-                        <p>Cine Magestic boasts a 40% increase in user satisfaction in first month.</p>
-                    </div>
                     <a
-                        href='https://github.com/mubasharali-dev/cine-magestic'
+                        href='https://github.com/mubasharali-dev/e-commerce-app'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                     </a>
                     <a
-                        href='https://cine-magestic.vercel.app/'
+                        href='https://cartsy-medicine-ecommerce-app.netlify.app/'
                         target='_blank'
                         rel='noreferrer'
                     >
@@ -65,19 +55,18 @@ const movieapp = () => {
                         <p className='pb-2 font-bold text-center'>Technologies</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
                             <p className='flex items-center py-2 text-gray-600'>
-                                <RiRadioButtonFill className='pr-1'/> Next.js
+                                <RiRadioButtonFill className='pr-1'/> ReactJs
                             </p>
                             <p className='flex items-center py-2 text-gray-600'>
-                                <RiRadioButtonFill className='pr-1'/> TypeScript
+                                <RiRadioButtonFill className='pr-1'/>
+                                JavaScript
                             </p>
                             <p className='flex items-center py-2 text-gray-600'>
-                                <RiRadioButtonFill className='pr-1'/> MongoDB
+                                <RiRadioButtonFill className='pr-1'/>
+                                CSS
                             </p>
                             <p className='flex items-center py-2 text-gray-600'>
-                                <RiRadioButtonFill className='pr-1'/> CSS
-                            </p>
-                            <p className='flex items-center py-2 text-gray-600'>
-                                <RiRadioButtonFill className='pr-1'/> Framer Motion
+                                <RiRadioButtonFill className='pr-1'/> Redux
                             </p>
 
                         </div>
@@ -91,4 +80,4 @@ const movieapp = () => {
     );
 };
 
-export default movieapp;
+export default ecommerce;

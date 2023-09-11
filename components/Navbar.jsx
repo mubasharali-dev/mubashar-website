@@ -22,7 +22,7 @@ export default function Navbar() {
       router.asPath === '/movieapp' ||
       router.asPath === '/fypms' ||
       router.asPath === '/mesha' ||
-      router.asPath === '/forexadmin'
+      router.asPath === '/ecommerce'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
