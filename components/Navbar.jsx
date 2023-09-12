@@ -6,7 +6,6 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
 import mypic from '../public/projects/mubashar.jpg'
-import Logo from '../public/projects/log.jpg';
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
@@ -69,9 +68,6 @@ export default function Navbar() {
         </Link>
         <div>
   <ul className='hidden md:flex'>
-    <Link href='/'>
-      <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Home</li>
-    </Link>
     <Link href='/#about'>
       <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>About</li>
     </Link>
@@ -81,8 +77,11 @@ export default function Navbar() {
     <Link href='/#skills'>
       <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Skills</li>
     </Link>
-    <Link href='/#contact'>
-      <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Contact</li>
+    <Link href='/#certifications'>
+      <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Certifications</li>
+    </Link>
+    <Link href='/#acheivements'>
+      <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Achievements</li>
     </Link>
   </ul>
   <div className='md:hidden' onClick={handleNav}>
@@ -108,9 +107,10 @@ export default function Navbar() {
               <Link href='/'>
                 <Image
                   alt='mypic'
-                  src='/../public/assets/log.png'
-                  width='87'
-                  height='35'
+                  src={mypic}
+                  width='40'
+                  height='40'
+                  className='cursor-pointer rounded-full'
                 />
               </Link>
 
@@ -133,29 +133,29 @@ export default function Navbar() {
               style={{ color: `${linkColor}` }}
               className='font-semibold uppercase'
             >
-              <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Home
-                </li>
-              </Link>
               <Link href='/#about'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-xs'>
                   About
                 </li>
               </Link>
               <Link href='/#skills'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-xs'>
                   Skills
                 </li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-xs'>
                   Projects
                 </li>
               </Link>
-              <Link href='/#contact'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Contact
+              <Link href='/#certifications'>
+                <li onClick={() => setNav(false)} className='py-4 text-xs'>
+                  Certifications
+                </li>
+              </Link>
+              <Link href='/#acheivements'>
+                <li onClick={() => setNav(false)} className='py-4 text-xs'>
+                  Achievements
                 </li>
               </Link>
             </ul>

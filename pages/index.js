@@ -6,6 +6,7 @@ import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import {Contact} from '../components/Contact';
 import Certifications from "../components/Certifications";
+import Achievements from '../components/Achievements';
 
 export default function Home() {
     return (
@@ -28,6 +29,7 @@ export default function Home() {
             <Projects/>
             <Skills/>
             <Certifications/>
+            <Achievements/>
             <Contact/>
         </div>
     );
