@@ -1,0 +1,18 @@
+/* styles.css or your custom CSS file */
+.customScrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.customScrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.customScrollbar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border: none;
+}
+
+.customScrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: transparent;
+}
