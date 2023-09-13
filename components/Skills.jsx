@@ -1,30 +1,16 @@
 import React from 'react';
 import Skill from './Skill';
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 
 const Skills = () => {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.2,
-  });
+
   return (
-    <div id='skills' ref={ref} className={`w-full mt-40 p-2 lg:h-screen ${
-      inView ? 'animate-appear' : ''
-    }`}>
+    <div id='skills' className="w-full mt-40 p-2 lg:h-screen">
       <div className='max-w=[1240px] h-full flex flex-col justify-center mx-auto  px-2   py-16'>
-        <motion.p className='text-xl tracking-widest uppercase text-[#5651e5]'
-        initial={{ x: '-100%', opacity: 0 }}
-        animate={{ x: inView ? '0%' : '-100%', opacity: inView ? 1 : 0 }}
-        transition={{ duration: 0.2 }}
+        <p className='text-xl tracking-widest uppercase text-[#5651e5]'
         >
           Skills
-        </motion.p>
-        <motion.h2 className='py-4'
-        initial={{ x: '-100%', opacity: 0 }}
-        animate={{ x: inView ? '0%' : '-100%', opacity: inView ? 1 : 0 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
-        >The skills I have</motion.h2>
+        </p>
+        <h2 className='py-4'>The skills I have</h2>
         <div className='grid gap-8 md:grid-cols-2 lg:grid-cols-4'>
           {/* skill */}
           <Skill
