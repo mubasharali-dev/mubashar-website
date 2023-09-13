@@ -68,6 +68,9 @@ export default function Navbar() {
         </Link>
         <div>
   <ul className='hidden md:flex'>
+    <Link href='/'>
+      <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>Home</li>
+    </Link>
     <Link href='/#about'>
       <li className='ml-10 text-sm uppercase hover:border-b-2 border-b-blue-400'>About</li>
     </Link>
@@ -133,6 +136,11 @@ export default function Navbar() {
               style={{ color: `${linkColor}` }}
               className='font-semibold uppercase'
             >
+              <Link href='/'>
+                <li onClick={() => setNav(false)} className='py-4 text-xs'>
+                  Home
+                </li>
+              </Link>
               <Link href='/#about'>
                 <li onClick={() => setNav(false)} className='py-4 text-xs'>
                   About
